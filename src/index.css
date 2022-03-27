@@ -17,10 +17,6 @@ ul {
   list-style: none;
 }
 
-p {
-  padding: 20px;
-}
-
 .container {
   max-width: 768px;
   margin: auto;
