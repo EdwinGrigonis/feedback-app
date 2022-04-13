@@ -38,7 +38,6 @@ function App() {
                         }>
 
                     </Route>
-
                     <Route path="/about" element={<AboutPage />}></Route>
                 </Routes>
                 <AboutIconLink />
