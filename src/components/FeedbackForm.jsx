@@ -50,7 +50,7 @@ const handleSubmit = (e) => {
                         type="text"
                         placeholder="Write your review"
                         value={text}/>
-                <Button type="submit" isDisabled={btnDisabled}>Send</Button>
+                <Button type="submit" isDisabled={btnDisabled}>Submit</Button>
             </div>
             {message && <div className="message">{message}</div>}
         </form>
