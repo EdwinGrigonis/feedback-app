@@ -3,7 +3,6 @@ import Header from "./components/Header";
 import FeedbackForm from "./components/FeedbackForm";
 import FeedbackList from "./components/FeedbackList";
 import FeedbackStats from "./components/FeedbackStats";
-import FeedbackData from "./data/FeedbackData";
 import AboutIconLink from "./components/AboutIconLink";
 import { FeedbackProvider } from "./components/context/FeedbackContext";
 import AboutPage from "./pages/AboutPage";
