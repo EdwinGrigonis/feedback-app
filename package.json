@@ -2,7 +2,7 @@
   "name": "feedback-app",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://my-json-server.typicode.com/EdwinGrigonis/feedback-app/",
+  "proxy": "https://6269f9325a44d80009f7be17--wondrous-capybara-cffbba.netlify.app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
