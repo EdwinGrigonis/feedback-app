@@ -5,7 +5,6 @@ const FeedbackContext = createContext()
 export const FeedbackProvider = ({children}) => {
     const [isLoading, setIsLoading] = useState(true)
     const [feedback, setFeedback] = useState([])
-
     const [feedbackEdit, setFeedbackEdit] = useState({
         item: {},
         edit: false,
@@ -17,7 +16,7 @@ export const FeedbackProvider = ({children}) => {
 
     //Fetch feedback
     const fetchFeedback = async () => {
-        const response = await fetch("/feedback?_sort=id&order=desc")
+        const response = await fetch("http://localhost:5000/feedback?_id&_order=desc")
         const data = await response.json() 
         setFeedback(data)
         setIsLoading(false)
